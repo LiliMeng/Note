@@ -13,3 +13,6 @@
 -- Installing: /usr/local/HDF_Group/HDF5/1.8.16/lib/libhdf5_hl_cpp-static.a
 -- Installing: /usr/local/HDF_Group/HDF5/1.8.16/lib/libhdf5_hl_cpp-shared.so.1.8.16
 -- Installing: /usr/local/HDF_Group/HDF5/1.8.16/lib/libhdf5_hl_cpp-shared.so.10.1.0
+
+
+g++ flann_example.cpp -I/usr/local/include -L/usr/local/HDF_Group/HDF5/1.8.16/lib/ -lhdf5 -o flann_example_cpp
